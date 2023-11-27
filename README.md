@@ -29,7 +29,7 @@ ReaDYP is a cross-platform book-recommendation system helping users to get ebook
 ## Minimum Software Requirements
 
 - OS : Windows 10 / MacOS BigSur / Linux x64 distribution (arm64 may or may not work)
-- Virtualization : Windows Hyper-V / Lxc / QEMU / libvirt
+- Virtualization : Windows Hyper-V / LXC / QEMU / libvirt
 - Docker Engine : v20.10
 - Docker Compose : v2.20
 - Docker Desktop : v4.22 (optional)
