@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+  # Database Service
+  database:
+    image: yashslakhtariya/readyp_database
+    container_name: reaDYP_database
+    environment:
+      MONGO_INITDB_DATABASE: reaDYP_users
+    ports:
+      - "27017:27017"
+
+  # Frontend Service
+  frontend:
+    image: yashslakhtariya/readyp_frontend
+    container_name: reaDYP_frontend
+    ports:
+      - "4200:4200"
+    depends_on:
+      - backend
+
+  # Backend Service
+  backend:
+    image: yashslakhtariya/readyp_backend
+    container_name: reaDYP_backend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - database
