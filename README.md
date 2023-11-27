@@ -47,6 +47,7 @@ cd reaDYP
 docker-compose up -d
 ```
 3. To run the application, visit http://localhost:4200/ in your browser.
+<br>
 
 > Note : If 4200 port is not available in your system, change it in `ports : <yourport>:4200` in `frontend` section of `docker-compose.yml` file.
 
