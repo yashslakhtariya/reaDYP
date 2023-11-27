@@ -5,7 +5,7 @@
 
 ## Overview
 
-**ReaDYP is a cross-platform book-recommendation system helping users to get ebook reading recommendations.** The application is built with the power of latest technologies like angular, nodejs, mongodb to make the inter-communication more stable and reliable. Along with it, powerful containerisation technology using docker here makes ReaDYP platform independent.
+ReaDYP is a cross-platform book-recommendation system helping users to get ebook reading recommendations.The application is built with the power of latest technologies like angular, nodejs, mongodb to make the inter-communication more stable and reliable. Along with it, powerful containerisation technology using docker here makes ReaDYP platform independent.
 
 ## Features
 - User Friendly UI
