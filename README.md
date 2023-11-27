@@ -33,6 +33,7 @@ ReaDYP is a cross-platform book-recommendation system helping users to get ebook
 - Docker Engine : v20.10
 - Docker Compose : v2.20
 - Docker Desktop : v4.22 (optional)
+- Browser : Any Chromium based browser v108 / Firefox 109 / Webkit based browser  
 
 ## Installation
 
@@ -45,6 +46,9 @@ cd reaDYP
 ```
 docker-compose up -d
 ```
+3. To run the application, visit http://localhost:4200/ in your browser.
+
+> Note : If 4200 port is not available in your system, change it in `ports : <yourport>:4200` in `frontend` section of `docker-compose.yml` file.
 
 ## Contact me
 For any queries or feedback, contact me : yashlakhtariya@outlook.com
