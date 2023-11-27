@@ -33,7 +33,7 @@ ReaDYP is a cross-platform book-recommendation system helping users to get ebook
 - Docker Engine : v20.10
 - Docker Compose : v2.20
 - Docker Desktop : v4.22 (optional)
-- Browser : Any Chromium based browser v108 / Firefox 109 / Webkit based browser  
+- Browser : Any Chromium v108 based browser / Firefox 109 / Webkit based browser  
 
 ## Installation
 
