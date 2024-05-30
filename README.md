@@ -42,7 +42,7 @@ ReaDYP is a cross-platform book-recommendation system helping users to get ebook
 git clone https://github.com/yashslakhtariya/reaDYP.git
 cd reaDYP
 ```
-2. Ensure docker is running and run
+2. Ensure docker is running and run (with hyphen or without as per docker installation)
 ```
 docker-compose up -d
 ```
